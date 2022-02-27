@@ -53,7 +53,7 @@ contract Vault is IVault {
     @return vault  the vault details
      */
     function getVault(address userAddress) external view override returns(Vault memory vault) {
-        return vaults[userAddress]
+        return vaults[userAddress];
     }
     
     /**
